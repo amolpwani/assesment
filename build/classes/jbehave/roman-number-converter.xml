@@ -1,0 +1,21 @@
+<story path="file:/C:/Users/waniiamo/eclipse-workspace/Assessment/build/resources/test/stories/roman-number-converter.story" title="Story: Roman Number Converter">
+<meta>
+<property keyword="@" name="scope" value="interview"/>
+</meta>
+<scenario keyword="Scenario:" title="1">
+<step outcome="successful">When input number is <parameter>1</parameter></step>
+<step outcome="successful">Then corresponding roman representation is <parameter>I</parameter></step>
+</scenario>
+<scenario keyword="Scenario:" title="2">
+<step outcome="successful">When input number is <parameter>5</parameter></step>
+<step outcome="successful">Then corresponding roman representation is <parameter>V</parameter></step>
+</scenario>
+<scenario keyword="Scenario:" title="3">
+<step outcome="successful">When input number is <parameter>10</parameter></step>
+<step outcome="successful">Then corresponding roman representation is <parameter>X</parameter></step>
+</scenario>
+<scenario keyword="Scenario:" title="4">
+<step outcome="successful">When input number is <parameter>400</parameter></step>
+<step outcome="successful">Then corresponding roman representation is <parameter>CD</parameter></step>
+</scenario>
+</story>
